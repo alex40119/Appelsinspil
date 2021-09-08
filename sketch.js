@@ -68,9 +68,6 @@ function draw() {
         text("Game Over",width/2 + random(-5,5), height/2 + random(3 ));
         text("Score: "+score, width/2, height/2 + 50);
         text("Press to Try Again",width/2, height/2 + 100);
-        if ("Press to Try Again") = true)
-        alert("GAME OVER");
-        document.location.reload();
     }
 }
 
